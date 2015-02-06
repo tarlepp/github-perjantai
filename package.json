@@ -1,0 +1,26 @@
+{
+  "name": "unibot-perjantai",
+  "version": "1.0.0",
+  "description": "Perjantai (Friday) plugin for UniBot IRC bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarlepp/unibot-perjantai.git"
+  },
+  "keywords": [
+    "UniBot",
+    "perjantai"
+  ],
+  "author": "Tarmo Leppänen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarlepp/unibot-perjantai/issues"
+  },
+  "dependencies": {
+    "lodash": "~3.1.0",
+    "shorturl": "0.0.3"
+  }
+}

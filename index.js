@@ -21,7 +21,8 @@ module.exports = function init(options) {
             'http://www.riemurasia.net/kuva/Perjantai/153418',
             'http://www.riemurasia.net/kuva/Perjantai-jooga/149481',
             'http://koti.kapsi.fi/airair/arvaa/index.html',
-            'http://party.toimii.fi/?autostart=true'
+            'http://party.toimii.fi/?autostart=true',
+            'https://www.youtube.com/watch?v=2l0ueaJWPJY'
         ];
 
         return {

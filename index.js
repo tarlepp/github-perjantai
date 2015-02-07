@@ -27,14 +27,14 @@ module.exports = function init(options) {
 
         return {
             "^!perjantai$": function onMatch(from, matches) {
-                // Oh noes not friday
+                // Yeah, friday - party on!
                 if (new Date().getDay() === 5) {
                     shorturl(links[Math.floor(Math.random() * links.length)], function(shorturl) {
                         var message = 'Jihaa kannat kattoon, nyt on PERJANTAI!!11! - ' + shorturl;
 
                         channel.say(message);
                     });
-                } else {
+                } else { // Oh noes not friday
                     var message = from + ': Oh noes, eipä ole vielä perjantai...';
 
                     channel.say(message);

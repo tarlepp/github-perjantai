@@ -14,15 +14,13 @@
  */
 var _ = require('lodash');
 var plugin = require('./index');
-
-
 var from = 'tarlepp';
 var message = '!perjantai';
 var match = false;
 
 var channel = {
-    say: function(message, from) {
-        from ? console.log(from + ': ' + message) : console.log(message);
+    say: function(message, to) {
+        to ? console.log(to + ': ' + message) : console.log(message);
     }
 };
 
